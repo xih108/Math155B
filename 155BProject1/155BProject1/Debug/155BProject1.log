@@ -1,0 +1,5 @@
+﻿  ConnectDotsModern.cpp
+h:\155bproject1\connectdotsmodern.cpp(208): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+h:\155bproject1\connectdotsmodern.cpp(212): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\155bproject1\connectdotsmodern.cpp(213): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  155BProject1.vcxproj -> H:\155BProject1\Debug\155BProject1.exe
