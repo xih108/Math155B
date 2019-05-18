@@ -1,0 +1,28 @@
+﻿  BumpMapFunction.cpp
+  CameraView.cpp
+  DirectLight.cpp
+  Extents.cpp
+  Material.cpp
+  MaterialCookTorrance.cpp
+  PixelArray.cpp
+  TextureAffineXform.cpp
+  TextureBilinearXform.cpp
+  TextureCheckered.cpp
+  TextureMapBase.cpp
+  TextureMultiFaces.cpp
+  TextureRgbImage.cpp
+  TransformViewable.cpp
+  ViewableBase.cpp
+  ViewableBezierSet.cpp
+  ViewableCone.cpp
+  ViewableCylinder.cpp
+  ViewableEllipsoid.cpp
+  ViewableParallelepiped.cpp
+  Generating Code...
+  Compiling...
+  ViewableParallelogram.cpp
+  ViewableSphere.cpp
+  ViewableTorus.cpp
+  ViewableTriangle.cpp
+  Generating Code...
+  Graphics.vcxproj -> H:\Math155B\Project4\RayTraceKd\x64\Debug\Graphics.lib

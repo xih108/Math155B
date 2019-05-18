@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3443E085-F039-43D4-B555-491EB29F010D}</ProjectGuid>
+    <RootNamespace>Graphics</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BumpMapFunction.cpp" />
+    <ClCompile Include="CameraView.cpp" />
+    <ClCompile Include="DirectLight.cpp" />
+    <ClCompile Include="Extents.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MaterialCookTorrance.cpp" />
+    <ClCompile Include="PixelArray.cpp" />
+    <ClCompile Include="RgbImage.cpp" />
+    <ClCompile Include="TextureAffineXform.cpp" />
+    <ClCompile Include="TextureBilinearXform.cpp" />
+    <ClCompile Include="TextureCheckered.cpp" />
+    <ClCompile Include="TextureMapBase.cpp" />
+    <ClCompile Include="TextureMultiFaces.cpp" />
+    <ClCompile Include="TextureRgbImage.cpp" />
+    <ClCompile Include="TextureSequence.cpp" />
+    <ClCompile Include="TransformViewable.cpp" />
+    <ClCompile Include="ViewableBase.cpp" />
+    <ClCompile Include="ViewableBezierSet.cpp" />
+    <ClCompile Include="ViewableCone.cpp" />
+    <ClCompile Include="ViewableCylinder.cpp" />
+    <ClCompile Include="ViewableEllipsoid.cpp" />
+    <ClCompile Include="ViewableParallelepiped.cpp" />
+    <ClCompile Include="ViewableParallelogram.cpp" />
+    <ClCompile Include="ViewableSphere.cpp" />
+    <ClCompile Include="ViewableTorus.cpp" />
+    <ClCompile Include="ViewableTriangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BumpMapFunction.h" />
+    <ClInclude Include="CameraView.h" />
+    <ClInclude Include="DirectLight.h" />
+    <ClInclude Include="Extents.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialBase.h" />
+    <ClInclude Include="MaterialCookTorrance.h" />
+    <ClInclude Include="PixelArray.h" />
+    <ClInclude Include="RgbImage.h" />
+    <ClInclude Include="TextureAffineXform.h" />
+    <ClInclude Include="TextureBilinearXform.h" />
+    <ClInclude Include="TextureCheckered.h" />
+    <ClInclude Include="TextureMapBase.h" />
+    <ClInclude Include="TextureMultiFaces.h" />
+    <ClInclude Include="TextureRgbImage.h" />
+    <ClInclude Include="TextureSequence.h" />
+    <ClInclude Include="TransformViewable.h" />
+    <ClInclude Include="ViewableBase.h" />
+    <ClInclude Include="ViewableBezierSet.h" />
+    <ClInclude Include="ViewableCone.h" />
+    <ClInclude Include="ViewableCylinder.h" />
+    <ClInclude Include="ViewableEllipsoid.h" />
+    <ClInclude Include="ViewableParallelepiped.h" />
+    <ClInclude Include="ViewableParallelogram.h" />
+    <ClInclude Include="ViewableSphere.h" />
+    <ClInclude Include="ViewableTorus.h" />
+    <ClInclude Include="ViewableTriangle.h" />
+    <ClInclude Include="VisiblePoint.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

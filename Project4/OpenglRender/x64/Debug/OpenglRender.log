@@ -1,0 +1,13 @@
+﻿  EduPhong.cpp
+  GlGeomSphere.cpp
+  OpenglRender.cpp
+h:\math155b\project4\openglrender\openglrender.cpp(279): warning C4312: 'type cast': conversion from 'unsigned int' to 'const MaterialBase *' of greater size
+h:\math155b\project4\openglrender\openglrender.cpp(346): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(380): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(438): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(463): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(494): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(513): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+h:\math155b\project4\openglrender\openglrender.cpp(551): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  OpenglRender.vcxproj -> H:\Math155B\Project4\RayTraceKd\x64\Debug\OpenglRender.lib

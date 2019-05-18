@@ -1,0 +1,10 @@
+﻿  Aabb.cpp
+  LinearR3.cpp
+  LinearR4.cpp
+  Parallelepiped.cpp
+  PolygonClip.cpp
+  Quaternion.cpp
+  Slerp.cpp
+  VectorRn.cpp
+  Generating Code...
+  VrMath.vcxproj -> H:\Math155B\Project4\RayTraceKd\x64\Debug\VrMath.lib

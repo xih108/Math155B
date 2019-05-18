@@ -1,0 +1,8 @@
+﻿  RayTraceKd.cpp
+h:\math155b\project4\raytracekd\raytracekd.cpp(111): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\math155b\project4\raytracekd\raytracekd.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\math155b\project4\raytracekd\raytracekd.cpp(113): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\math155b\project4\raytracekd\raytracekd.cpp(114): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\math155b\project4\raytracekd\raytracekd.cpp(373): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+h:\math155b\project4\raytracekd\raytracekd.cpp(374): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  RayTraceKd.vcxproj -> H:\Math155B\Project4\RayTraceKd\x64\Debug\RayTraceKd.exe
